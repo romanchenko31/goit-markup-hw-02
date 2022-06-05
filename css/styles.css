@@ -1,0 +1,120 @@
+/*цвет основного текста #212121 
+вторичный цвет #757575
+белый #FFFFFF
+акцент #2196F3
+цвет адресса футер почта, телефон color: rgba(255, 255, 255, 0.6);
+лого хадр #2196F3 #000000
+лого футер #2196F3  #000000
+*/
+
+/* цвет фона
+основной #E5E5E5
+вторичный #F5F4FA
+*/
+:root{
+    --primary-text-color:#212121;
+    --second-text-color:#757575;
+    --accent-color:#2196F3;
+    --white:#ffffff;
+    --primary-button-color:#212121;
+    --bg-primary-color:#F5F4FA;
+    --secondary-color:#FFFFFF;
+    --bg-secondary-color:#2196F3;
+    --bg-buttom-color:#2196F3;
+    --logo-color:#2196F3;
+    --logo-total-color:#000000;
+}
+
+body{
+    background-color:#E5E5E5;
+    width: 1600px;
+    margin: 0 auto;
+}
+.list{
+    list-style: none;
+}
+
+/* logo */
+
+.logototal{
+    color: var(--logo-total-color);
+}
+
+.logototal .logo{
+    color:var(--logo-color);
+}
+
+/* навигация начало */
+
+.site-nav .link{
+    color: var(--primary-text-color) ;
+}
+.site-nav .link:hover, 
+.site-nav .link:focus{
+    color:var(--accent-color);
+}
+
+.mail{
+    color: var(--second-text-color);
+}
+
+.mail:hover,
+.mail:focus{
+    color: var(--accent-color);
+}
+
+.phone {
+    color: var(--second-text-color);
+}
+
+.phone:hover,
+.phone:focus {
+    color: var(--accent-color);
+}
+
+/* навигация конец */
+/* section */
+
+.about-list .title{
+    color:var(--primary-text-color);
+}
+.title{
+    color:var(--primary-text-color);
+}
+
+.description{
+    color: var(--second-text-color);
+}
+
+/* section end */
+/* button open */
+
+.button{
+   
+}
+
+.button.secondary{
+    color:var(--secondary-color);
+    background-color: var(--bg-secondary-color);
+}
+
+.button.primary{
+    color:var(--primary-button-color);
+    background-color:var(--bg-primary-color);
+}
+
+.link.current{
+    color: var(--accent-color);
+}
+
+.filter .button{
+    color: var(--primary-text-color);
+    background-color:var(--bg-primary-color);
+}
+
+.filter .button:hover,
+.filter .button:focus{
+    color: var(--white);
+    background-color: var(--bg-secondary-color);
+}
+
